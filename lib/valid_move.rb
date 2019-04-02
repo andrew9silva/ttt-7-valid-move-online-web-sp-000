@@ -8,4 +8,4 @@ def valid_move(board, integer)
    elsif board[integer] == "X" || board[integer] == "O"
     true
    end
-end
+ end
