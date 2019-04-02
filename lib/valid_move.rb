@@ -1,5 +1,8 @@
 # code your #valid_move? method here
-def valid_move?(game, position)
+def valid_move?(board, integer)
+  if board[integer] == " "
+    true 
+  end
 end
 
 
