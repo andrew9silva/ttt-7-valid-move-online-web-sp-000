@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(board, position)
-  integer = position.to_i -1 
+  integer = position.to_i -1
   if position_taken(board[integer])
-    true 
+    true
   end
 
 
